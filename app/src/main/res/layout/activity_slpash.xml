@@ -7,14 +7,11 @@
     android:background="#ffffff"
     tools:context="guideme.pvstudio.com.guideme.slpash">
 
-    <TextView
-        android:id="@+id/fullscreen_content"
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/loader_text"
-        android:textColor="#000"
-        android:textSize="25sp" />
+        android:src="@drawable/logo" />
 
 </android.support.constraint.ConstraintLayout>
