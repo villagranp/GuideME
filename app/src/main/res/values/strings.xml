@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">GuideME</string>
     <string name="loader_text">Logo</string>
+    <string name="button_to_cycle">1. to life cycle</string>
+    <string name="button_to_click">2 events </string>
+    <string name="button_to_android_extensions">3 extensions</string>
+    <string name="button_to_picasso">4 picasso</string>
+    <string name="button_to_intents">6 intents</string>
+    <string name="button_to_list_views">5 list views</string>
+    <string name="button_to_permissions">7 permissions</string>
+    <string name="button_to_preferences">8 preferences</string>
+    <string name="button_to_extension_functions">9 Extension functions</string>
+
+
+
 </resources>
