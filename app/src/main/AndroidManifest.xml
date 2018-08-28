@@ -28,7 +28,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".lifeCycle" />
-        <activity android:name=".Events"></activity>
+        <activity android:name=".Events" />
+        <activity android:name=".lifeCycleEventActivity"></activity>
     </application>
 
 </manifest>

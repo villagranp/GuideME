@@ -20,14 +20,14 @@ class MainActivity : AppCompatActivity() {
         val btnEvents = btnEvent
 
         btnLifeCycle.setOnClickListener { goToLifeCycle() }
-        btnEvents.setOnClickListener{ goToEvents() }
+        btnEvents.setOnClickListener { goToEvents() }
     }
 
-    fun showToast(){
+    fun showToast() {
         Toast.makeText(this, "Toast", Toast.LENGTH_LONG).show() // Mensaje en pantalla
     }
 
-    fun showSnackBar(){
+    fun showSnackBar() {
 //        val layout = mainView
 //        Snackbar.make(layout, "SnackBar", Snackbar.LENGTH_LONG).show()
         Snackbar.make(mainContainer, "SnackBar", Snackbar.LENGTH_LONG).setAction("buttom") {
@@ -38,18 +38,17 @@ class MainActivity : AppCompatActivity() {
     fun setUpToolBar() {
         setSupportActionBar(toolbar)
 //        supportActionBar.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title="Menu Kotlin"
+        supportActionBar?.title = "Menu Kotlin"
     }
 
-    private fun goToLifeCycle(){
+    private fun goToLifeCycle() {
         val intent = Intent(this, lifeCycle::class.java)
         startActivity(intent)
 
     }
+
     //LineFun
     private fun goToEvents() = startActivity(Intent(this, Events::class.java))
-
-
 
 
 }
