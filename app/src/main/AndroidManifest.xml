@@ -29,7 +29,8 @@
         </activity>
         <activity android:name=".lifeCycle" />
         <activity android:name=".Events" />
-        <activity android:name=".lifeCycleEventActivity"></activity>
+        <activity android:name=".lifeCycleEventActivity" />
+        <activity android:name=".ExtensionsActivity"></activity>
     </application>
 
 </manifest>

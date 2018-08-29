@@ -11,4 +11,14 @@
     <string name="button_to_preferences">8 preferences</string>
     <string name="button_to_extension_functions">9 Extension functions</string>
 
+    <string name="buttonXML">Boton XML</string>
+    <string name="buttonInLine">Boton In Line</string>
+    <string name="buttonMulti1">Boton Muti 1</string>
+    <string name="buttonMulti2">Boton Muti 2</string>
+    <string name="buttonMulti3">Boton Muti 3</string>
+
+    <string name="buttonbyID">Boton By ID</string>
+    <string name="buttonKAT">Boton By KAT</string>
+
+
 </resources>
