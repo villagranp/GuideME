@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         btnLifeCycle.setOnClickListener { goToLifeCycle() }
         btnEvents.setOnClickListener { goToEvents() }
-        btnExtension.setOnClickListener{ goToExtensions() }
+        btnExtension.setOnClickListener { goToExtensions() }
+        btnPicasso.setOnClickListener { goToPicasso() }
     }
 
     fun showToast() {
@@ -50,7 +51,8 @@ class MainActivity : AppCompatActivity() {
 
     //LineFun
     private fun goToEvents() = startActivity(Intent(this, Events::class.java))
-    private fun goToExtensions() = startActivity(Intent(this, ExtensionsActivity::class.java))
 
+    private fun goToExtensions() = startActivity(Intent(this, ExtensionsActivity::class.java))
+    private fun goToPicasso() = startActivity(Intent(this, PicassoActivity::class.java))
 
 }
