@@ -34,7 +34,9 @@
         <activity android:name=".lifeCycleEventActivity" />
         <activity android:name=".ExtensionsActivity" />
         <activity android:name=".PicassoActivity" />
-        <activity android:name=".ListView"></activity>
+        <activity android:name=".ListView" />
+        <activity android:name=".intentsActivity" />
+        <activity android:name=".IntentExtrasActivity"></activity>
     </application>
 
 </manifest>

@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         btnExtension.setOnClickListener { goToExtensions() }
         btnPicasso.setOnClickListener { goToPicasso() }
         btnListView.setOnClickListener { goToListView() }
+        btnIntents.setOnClickListener { goToIntents() }
     }
 
     fun showToast() {
@@ -56,5 +57,6 @@ class MainActivity : AppCompatActivity() {
     private fun goToExtensions() = startActivity(Intent(this, ExtensionsActivity::class.java))
     private fun goToPicasso() = startActivity(Intent(this, PicassoActivity::class.java))
     private fun goToListView() = startActivity(Intent(this, ListView::class.java))
+    private fun goToIntents() = startActivity(Intent(this, intentsActivity::class.java))
 
 }

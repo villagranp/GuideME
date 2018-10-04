@@ -20,5 +20,11 @@
     <string name="buttonbyID">Boton By ID</string>
     <string name="buttonKAT">Boton By KAT</string>
 
+    <string name="buttonIntentObject">Boton Intent Object</string>
+    <string name="buttonIntentEx">Boton Intent Extras</string>
+    <string name="buttonIntentFlags">Boton Intent Flags</string>
+
+    <string name="buttonback">go Back</string>
+
 
 </resources>
